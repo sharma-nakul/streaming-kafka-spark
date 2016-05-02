@@ -61,6 +61,8 @@ public class KafkaStreaming {
 
         JavaPairDStream<String, Integer> wordCount = words.mapToPair(new WordMapper()).reduceByKey(new WordCountReducer());
 
+        wordCount.print();
+
         sc = jsc.sparkContext();
         wordCount.foreachRDD((v1, v2) -> {
             v1.foreach((x) -> {
