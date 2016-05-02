@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/kafka-streaming/kafka-streaming.iml" filepath="$PROJECT_DIR$/kafka-streaming/kafka-streaming.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark-moonshot-assignment.iml" filepath="$PROJECT_DIR$/spark-moonshot-assignment.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark-streaming/spark-streaming.iml" filepath="$PROJECT_DIR$/spark-streaming/spark-streaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-web-application_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-web-application_main.iml" group="spring-web-application" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-web-application_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-web-application_test.iml" group="spring-web-application" />
     </modules>
   </component>
 </project>

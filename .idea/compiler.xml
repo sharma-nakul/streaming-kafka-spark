@@ -30,6 +30,10 @@
       <module name="kafka-streaming" target="1.8" />
       <module name="spark-moonshot-assignment" target="1.5" />
       <module name="spark-streaming" target="1.8" />
+      <module name="spring-boot-streaming-view" target="1.8" />
+      <module name="spring-web-application" target="1.8" />
+      <module name="spring-web-application_main" target="1.8" />
+      <module name="spring-web-application_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

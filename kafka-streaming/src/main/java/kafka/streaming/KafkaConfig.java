@@ -17,7 +17,7 @@ public class KafkaConfig {
     private String kafkaTopic;
 
     private static final String HOSTNAME = "localhost";
-    private static final String PORT = "9092";
+    private static final String PORT = "9094";
 
     public KafkaConfig(String topic) {
         this.kafkaBroker = HOSTNAME + ":" + PORT;

@@ -7,7 +7,7 @@ public class SparkApp {
     public static void main(String[] args) throws Exception {
 
 
-        ArrayList topicList = new ArrayList();
+        ArrayList<String> topicList = new ArrayList<>();
         topicList.add("weather_north_california");
         KafkaStreaming kafkaStream = new KafkaStreaming("localhost:2181", "KafkaSparkStreaming", "test-group", topicList,2);
 
